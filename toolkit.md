@@ -142,3 +142,53 @@ After completing this project, beginners will:
 - Implement simple animations with Timer
 
 - Learn layout management and alignment
+
+ ---
+
+### **7. AI Prompt Journal**
+
+|Prompt |	AI Response Summary|	Reflection|
+|:--- | :---| :---|
+Help me architect a "Hello Beginner"using Kotlin GUI. I need a simple UI with a centered "Hello Beginner" text and a button. When the button is clicked, the text should change and a simple "fade-in" animation should trigger. Provide the specific dependencies I need for my build.gradle and the code for the MainActivity.kt. | The AI initially generated a full MainActivity.kt working example using Android Compose. It looked great, but it was designed specifically for mobile development. | I learned that I could not run that code without a complete Android Studio installation, including the SDK, Emulator, and heavy system requirements. 
+I need it to be 100% kotlin in ItelliJ no android no compose normal kotlin for Main.kt file | Generated  a full Main.kt file| To get the code running quickly and easily, I had to change the project to a standard Main.kt file.
+Generate a simple Kotlin GUI with a button that changes text	| Provided base Swing code and layout suggestions	| Helped me understand basic GUI creation and event handling
+Should I click generate multi-module build	| No — for a simple “Hello World” beginner project, you do NOT need a multi-module build.	| Learned what multi-module build is and how it works
+Best way to set up Kotlin project in IntelliJ with JDK 21	| Step-by-step setup instructions |	Solved initial JDK and project setup confusion
+I want help generating a complete documentation file for this project. The documentation should be beginner-friendly, clearly explained, and written in normal document format (not Markdown). Please include the following sections: Explain the goal of the project and how it helps beginners learn Kotlin GUI development.Overview / Quick Summary of Kotlin, Explain what Kotlin is. Provide one real-world example where it is used, System Requirements, List operating systems supported. Required IDE and tools. Installation and Setup Instructions for IntellJ,Step-by-step explanation of how to install tools and set up a project. | Provide Initial toolkit format | Made documentation easy
+
+
+---
+
+### **8.Common Issues & Fixes**
+
+|Issue | Solution / Fix|
+|:--- | :---|
+Android Compose installation could not complete |	Switched to IntelliJ with Kotlin Swing
+Kotlin project would not run in IntelliJ	| Updated JDK from version 25 to 21 and set Project SDK
+Window did not appear	| Added frame.isVisible = true
+JLabel / JButton alignment issues |	Used BoxLayout and alignmentX = Component.CENTER_ALIGNMENT
+Gradle JDK errors (if Gradle used)	| Switched build/run to IntelliJ IDEA instead of Gradle
+
+---
+
+### **9.References**
+
+-Kotlin Official Documentation
+
+-IntelliJ IDEA Kotlin Setup Guide
+
+-YouTube tutorials on Kotlin Swing GUI
+
+---
+
+### **10.Reflection**
+
+This project demonstrates how AI prompts can accelerate learning and problem-solving. Using AI, I was able to:
+
+-  Generate working Kotlin GUI code quickly
+
+-  Solve layout and event handling problems
+
+-  Document the learning process for beginners
+
+-  I also learned the importance of matching JDK versions with project requirements, and how switching tools (from Android Compose to IntelliJ Swing) can be necessary when installations fail.
